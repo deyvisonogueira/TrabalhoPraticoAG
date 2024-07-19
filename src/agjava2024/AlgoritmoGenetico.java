@@ -229,7 +229,7 @@ public class AlgoritmoGenetico {
         }
 
         System.out.println("Peso Total: " + pesoTotal + " Kg");
-        System.out.println("Volume Total: " + volumeTotal + " m³");
+        System.out.println("Volume Total: " + volumeTotal/1000000 + " m³");
     }
 
 }
